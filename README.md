@@ -5,7 +5,7 @@ My script does not need any modification to UDEV rules, it uses the <b>lsusb</b>
   <h1>How it works</h1>
 The main daemon checks once in every five seconds if the host machine is running. If yes it starts the main script to serve the USB connections. The main script checks every second the USB devices and if it finds the matching device from the listing file it connects this device to host machine. If the device is unplugged the main script removes the device from the host machine. On the turning off the host machine the all connected USB devices are removed automatically.
 You can edit the listing file anytime even when your host machine is running. All the information will be updated uptime.
-<h1>How it install (Ubuntu and family members)</h1>
+<h1>How to install (Ubuntu and family members)</h1>
 <ul>
   <li>
     copy the files to any folder on the server
