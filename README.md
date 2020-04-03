@@ -66,3 +66,5 @@ service usb-libvirt-hotplug start
       </pre>
     </li>
     <ul>
+
+#Virtual_manager, #QEMU, #USB
